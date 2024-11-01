@@ -344,138 +344,198 @@ o Nhiều ý tưởng chính vẫn được sử dụng cho đến ngày nay
 ▪ Đã bao gồm tài liệu omacOS thực chất là một hệ điều hành Unix ngụy trang!
 
 ❖ Linux
+
 o Được phát triển vào năm 1992 bởi Linus Torvalds, người cũng đã phát triển git!
 Hệ thống tệp Linux
 
-directory description
-/ Thư mục gốc chứa tất cả các thư mục
-/bin Ứng dụng/chương trình(i.e. binaries)
-/dev Thiết bị phần cứng
-/etc Tệp cấu hình
-/home Chứa thư mục chính của người dùng
-/proc Chạy chương trình (quy trình)
-/tmp, /var Tệp tạm thời
-/usr Tài nguyên hệ thống phổ quát
+/directory description                   Thư mục gốc chứa tất cả các thư mục
+
+/bin                                     Ứng dụng/chương trình(i.e. binaries)
+
+/dev                                     Thiết bị phần cứng
+
+/etc                                     Tệp cấu hình
+
+/home                                    Chứa thư mục chính của người dùng
+
+/proc                                    Chạy chương trình (quy trình)
+
+/tmp, /var                               Tệp tạm thời
+
+/usr                                     Tài nguyên hệ thống phổ quát
+
 B.Làm việc với Linux
+
 Lệnh Shell cơ bản
 
-Command          Description
+Command                                  Description
 
-Pwd                     In thư mục làm việc hiện tại
+Pwd                                      In thư mục làm việc hiện tại
 
-Cd                         Thay đổi thư mục làm việc
+Cd                                       Thay đổi thư mục làm việc
 
-ls                            Liệt kê các tập tin trong thư mục làm việc
+ls                                       Liệt kê các tập tin trong thư mục làm việc
 
-man                       Đưa ra hướng dẫn cho một lệnh
+man                                      Đưa ra hướng dẫn cho một lệnh
 
-exit                        Đăng xuất khỏi shell
+exit                                     Đăng xuất khỏi shell
+
 Lệnh hệ thống
 
-Command              Description
-Clear                        Xóa tất cả đầu ra khỏi bảng điều khiển
+Command                                  Description
 
-Date                         Xuất ngày hệ thống
+Clear                                    Xóa tất cả đầu ra khỏi bảng điều khiển
 
-Cal                            Xuất lịch văn bản
+Date                                     Xuất ngày hệ thống
 
-Uname                    In thông tin về hệ thống hiện tại
+Cal                                      Xuất lịch văn bản
+
+Uname                                    In thông tin về hệ thống hiện tại
+
 Lệnh thư mục
 
-Directory Description
-ls Liệt kê các tập tin trong thư mục làm việc
-pwd In thư mục làm việc hiện tại
-cd Thay đổi thư mục làm việc
-mkdir Tạo một thư mục mới
-rmdir Xóa thư mục đã cho (phải trống)
-❖Liệt kê nội dung của thư mục: ls [-a] [-l] [directory_name
-]
+Directory                                Description
+
+ls                                       Liệt kê các tập tin trong thư mục làm việc
+
+pwd                                      In thư mục làm việc hiện tại
+
+cd                                       Thay đổi thư mục làm việc
+
+mkdir                                    Tạo một thư mục mới
+
+rmdir                                    Xóa thư mục đã cho (phải trống)
+
+❖Liệt kê nội dung của thư mục: ls [-a] [-l] [directory_name]
 
 ❖In thư mục làm việc: pwd ❖Thay đổi thư mục làm việc:
+
 cd directory_name
+
 E.g. cd /home
+
 ❖Tạo thư mục mới:
 
 mkdir directory_name
 
 ❖Xóa một thư mục:
 
-rm
--
-r directory_name
-❖Một số ký hiệu đặc biệt: ~ : Thư mục chính
+rmdir directory_name
+
+❖Một số ký hiệu đặc biệt:
+
+~ : Thư mục chính
+
 .. : Thư mục mẹ
+
 Lệnh tệp
 
-Command Description
-cat Hiển thị nội dung tệp
-cp Sao chép tệp
-mv Di chuyển tệp (cũng được sử dụng để đổi tên tệp)
-rm Xóa tệp đã cho
-touch Tạo tệp trống hoặc thay đổi thời gian sửa đổi
+Command                                  Description
+
+cat                                      Hiển thị nội dung tệp
+
+cp                                       Sao chép tệp
+
+mv                                       Di chuyển tệp (cũng được sử dụng để đổi tên tệp)
+
+rm                                       Xóa tệp đã cho
+
+touch                                    Tạo tệp trống hoặc thay đổi thời gian sửa đổi
+
 ❖Hiển thị nội dung tệp :
 
 cat filename or more filename
+
 head filename or tail filename
+
 ❖Sao chép (các) tệp hoặc thư mục:
 
 cp [-r] source_file destination_file
 
 ❖Xóa tệp hoặc thư mục
+
 rm –r file_name
 
 ❖Di chuyển (đổi tên) (các) tệp/thư mục
 
 mv old_path new_path
+
 Hệ thống tệp và quyền
 
-❖Mỗi người dùng có thể sở hữu một hoặc nhiều
-thư mục / tệp
-❖Mỗi người dùng có quyền truy cập khác nhau
-trong các thư mục / tệp khác nhau
+❖Mỗi người dùng có thể sở hữu một hoặc nhiều thư mục / tệp
+
+❖Mỗi người dùng có quyền truy cập khác nhau trong các thư mục / tệp khác nhau
+
 Người dùng có thể chia sẻ dữ liệu của họ với nhau
-Người dùng cũng có thể bảo vệ dữ liệu cá nhân của
-họ
+
+Người dùng cũng có thể bảo vệ dữ liệu cá nhân của họ
+
 ❖Truy cập ngay trên thư mục / tệp
+
 • read (r)
+
 • write (w)
+
 • execute (x)
 
-❖Mỗi thư mục/file có 9 bit bên phải truy cập, được chia
-thành 3 nhóm như sau:
+❖Mỗi thư mục/file có 9 bit bên phải truy cập, được chia thành 3 nhóm như sau:
+
 • chủ nhân
+
 • nhóm (ví dụ: những người trong cùng một nhóm dự án)
+
 • những người khác (những người trong phạm vi công cộng)
+
 Thay đổi quyền truy cập
 
 ❖Tượng trưng
 
 chmod who op mode [-R] file(s)
 
-❖Who: u : owner
+❖Who: 
+
+u : owner
+
 g : group
+
 o : others
+
 a : all
-❖Mode: r : read
+
+❖Mode:
+
+r : read
+
 w : write
+
 x : execute
 
-❖Op + : grant more rights
+❖Op:
+
++ : grant more rights
+
 - : revoke rights
+  
 = : reset rights
+
 ❖Số: chmod xyz [-R] file(s)
+
 read = 4 write = 2 execute = 1
 
-Octal value                  Access right
-7                                    rwx
+Octal value                              Access right
 
-6                                       rw-
-5                                     r-x
+7                                        rwx
 
-4                                      r--
-3                                      -wx
+6                                        rw-
 
-2                                       -w-
-1                                         --x
+5                                        r-x
 
-0                                         ---
+4                                        r--
+
+3                                        -wx
+
+2                                        -w-
+
+1                                        --x
+
+0                                        ---
