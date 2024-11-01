@@ -348,21 +348,21 @@ o Nhiều ý tưởng chính vẫn được sử dụng cho đến ngày nay
 o Được phát triển vào năm 1992 bởi Linus Torvalds, người cũng đã phát triển git!
 Hệ thống tệp Linux
 
-/directory description                   Thư mục gốc chứa tất cả các thư mục
+/directory description:                   Thư mục gốc chứa tất cả các thư mục
 
-/bin                                     Ứng dụng/chương trình(i.e. binaries)
+/bin        :                             Ứng dụng/chương trình(i.e. binaries)
 
-/dev                                     Thiết bị phần cứng
+/dev        :                             Thiết bị phần cứng
 
-/etc                                     Tệp cấu hình
+/etc       :                              Tệp cấu hình
 
-/home                                    Chứa thư mục chính của người dùng
+/home      :                              Chứa thư mục chính của người dùng
 
-/proc                                    Chạy chương trình (quy trình)
+/proc      :                              Chạy chương trình (quy trình)
 
-/tmp, /var                               Tệp tạm thời
+/tmp, /var   :                            Tệp tạm thời
 
-/usr                                     Tài nguyên hệ thống phổ quát
+/usr        :                             Tài nguyên hệ thống phổ quát
 
 B.Làm việc với Linux
 
