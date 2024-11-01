@@ -1,16 +1,21 @@
 Chương 1: Cơ bản về máy tính và CNTT
 
 Bài 1:Các khái niệm cơ bản
+
 A.Giới thiệu về máy tính
+
 Máy tính là một thiết bị điện tử được sử dụng để thực hiện các phép tính và xử lý dữ liệu tự động, nhanh chóng và chính xác. Nó giúp con người trong nhiều lĩnh vực từ học tập, làm việc, giải trí đến nghiên cứu khoa học. Dưới đây là các thành phần chính và vai trò của máy tính:
+
 1. Các thành phần chính của máy tính
+   
 •	Phần cứng (Hardware): Là các bộ phận vật lý của máy tính bao gồm:
+
 o	Bộ xử lý trung tâm (CPU): Là "bộ não" của máy tính, nơi thực hiện các phép tính và xử lý lệnh.
 o	Bộ nhớ (RAM, ROM): Lưu trữ dữ liệu tạm thời và dữ liệu cố định.
 o	Ổ cứng (HDD, SSD): Dùng để lưu trữ dữ liệu lâu dài.
 o	Thiết bị nhập xuất (chuột, bàn phím, màn hình, máy in): Giúp người dùng tương tác với máy tính và nhận kết quả.
 •	Phần mềm (Software): Là các chương trình, ứng dụng chạy trên máy tính giúp người dùng thực hiện các công việc cụ thể như xử lý văn bản, tính toán, đồ họa, v.v.
-2. Các loại máy tính phổ biến
+3. Các loại máy tính phổ biến
 
 •	Máy tính để bàn (Desktop): Thường được sử dụng cố định trong văn phòng hoặc gia đình.
 •	Máy tính xách tay (Laptop): Có tính di động cao, dễ dàng mang theo.
