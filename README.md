@@ -1,4 +1,5 @@
 Chương 1: Cơ bản về máy tính và CNTT
+
 Bài 1:Các khái niệm cơ bản
 A.Giới thiệu về máy tính
 Máy tính là một thiết bị điện tử được sử dụng để thực hiện các phép tính và xử lý dữ liệu tự động, nhanh chóng và chính xác. Nó giúp con người trong nhiều lĩnh vực từ học tập, làm việc, giải trí đến nghiên cứu khoa học. Dưới đây là các thành phần chính và vai trò của máy tính:
